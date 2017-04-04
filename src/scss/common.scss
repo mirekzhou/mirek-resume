@@ -1,0 +1,42 @@
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+    clear:both; 
+    height: 0; 
+    line-height: 0; 
+    font-size: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+div,
+article,
+aside,
+body,
+footer,
+header,
+hgroup,
+nav,
+section,
+ul,
+p,
+li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.p-wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
